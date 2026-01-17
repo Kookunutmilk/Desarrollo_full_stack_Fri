@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="css/Estyle.css">
+</head>
+<body>
+    <!-- header-->
+    <header id="header">
+        <div class="logoimg"><img src="images/logo.jpg" width="120"></div>
+        <div class="title">TREEGROW</div>
+
+        <nav>
+            <button onclick="scrollToSection('#about')">Sobre Nosotros</button>
+            <button onclick="scrollToSection('#campaigns')">Campañas</button>
+            <button onclick="scrollToSection('#donate')">Donar</button>
+            <button onclick="scrollToSection('#contact')">Contacto</button>
+        </nav>
+    </header>
+
+    <section id="about">
+    <div class="US" id="sobre">
+            <div class="US-text">
+            <h1>Sobre nosotros</h1>
+            <p>
+                Hola, nosotros somos TREEGROW, un equipo de profesionales
+                dedicados a la reforestación y conservación del medio ambiente.
+                Nos apasiona la naturaleza y nuestra visión es reforestar para crear un futuro
+                más verde.
+            </p>
+            </div>
+    </div>
+    </section>
+
+
+    <section id="campaigns">
+            <header id="cmp">Campañas</header>
+            <div class="contents" >
+                <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2" alt="Campañas">
+                <div>
+                <p>
+                 Cada campaña es una semilla de esperanza. En <b>TREEGROW</b> creemos que reforestar no solo significa plantar árboles, sino también sembrar conciencia, unión y compromiso con el planeta.
+                 A través de nuestras campañas, transformamos espacios dañados en áreas llenas de vida, involucrando a comunidades, voluntarios y aliados que comparten el mismo propósito: 
+                 <p></p>
+                 <em>proteger la naturaleza para las futuras generaciones.</em>
+                 <p>Cada árbol plantado es un paso hacia un mundo más verde, más justo y más sostenible.
+                  </p>  
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    
+<div class="cards-container">
+
+    <!-- Recuadro 1 -->
+    <div class="card">
+        <h2 class="tx">NORTEÁMERICA</h2>
+        <p>
+           Reforestación de areas degradadas por incendios en la zona oeste de Norteamerica, especificamente en 
+                 California, Oregón, Washington y Columbia Britanica. 
+        </p>
+    </div>
+
+    <!-- Recuadro 2 -->
+    <div class="card">
+        <h2 class="tx">REPÚBLICA MEXICANA</h2>
+        <p>
+        Reforestación de áreas degradadas por la deforestación, tala ilegal 
+        e incendios forestales en el sureste y centro del país, 
+        específicamente en Chiapas, Campeche, Tabasco, Estado de México, Morelos y Ciudad de México.
+        </p>
+    </div>
+
+    <!-- Recuadro 3 -->
+    <div class="card">
+        <h2 class="tx">PERÚ</h2>
+        <p>
+            Reforestación de zonas afectadas por la deforestación, incendios forestales 
+            y expansión agrícola en la Amazonía peruana, principalmente en Amazonas, 
+            San Martín, Ucayali, Loreto y Huánuco.
+        </p>
+    </div>
+
+</div>
+
+<section id="donate">
+        <h2>Donaciones</h2>
+
+        <div class="content">
+            <img src="https://plus.unsplash.com/premium_photo-1681140560624-dc6ad807f7bc?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Donaciones">
+
+            <div>
+                <p>
+                    Tus donaciones ayudan a plantar árboles y a proteger
+                    ecosistemas en riesgo. Cada aporte cuenta.
+                </p>
+
+                <!-- ===== Formulario de Donaciones ===== -->
+<form class="donation-form">
+
+    <!-- Nombre -->
+    <label>Nombre completo</label>
+    <input type="text" placeholder="Tu nombre" required>
+
+    <!-- Correo -->
+    <label>Correo electrónico</label>
+    <input type="email" placeholder="correo@ejemplo.com" required>
+
+    <!-- Monto -->
+    <label>Monto a donar</label>
+    <input type="number" placeholder="$ MXN" required>
+
+    <!-- Método de pago -->
+    <label>Método de pago</label>
+    <select required>
+        <option value="">Selecciona una opción</option>
+        <option>Tarjeta de crédito</option>
+        <option>Tarjeta de débito</option>
+        <option>Transferencia bancaria</option>
+    </select>
+
+    <!-- Mensaje -->
+    <label>Mensaje (opcional)</label>
+    <textarea placeholder="Tu mensaje"></textarea>
+
+    <!-- Botón -->
+    <button type="submit">Donar</button>
+
+</form>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        
+     <div class="content">
+             <img src="https://plus.unsplash.com/premium_photo-1681140560954-251443a35654?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Contacto">
+
+            <div>
+                <p>
+                    Tu acción puede marcar la diferencia. Al unirte a <b>TREEGROW</b>, te conviertes en parte del cambio que el planeta necesita.
+Contáctanos y participa en nuestras iniciativas para reforestar, proteger la naturaleza y construir un futuro más verde para las próximas generaciones.
+                </p>
+                <p>Si quieres ser uno de nosotros simplemente mandanos un correo a</p>
+                <p><b>Correo:</b> contacto@treegrow.com</p>
+                <p></p>
+                <p>Siguenos en todas las redes sociales como <b>@TREEGROW</b> para estar al pendiente de nuevas campañas, programas de apoyo y actividades.</p> 
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p><b>@2026 TREEGROW | Reforestaciones</b></p>
+    </footer>
+    
+    <script>
+    function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    </script>
+
+    <script>
+    
+    document.querySelector(".donation-form").addEventListener("submit", function(event) {
+        event.preventDefault(); 
+        alert("¡Gracias por tu donación!");
+        this.reset(); //
+    });
+</script>
+
+ </body>
+</html>

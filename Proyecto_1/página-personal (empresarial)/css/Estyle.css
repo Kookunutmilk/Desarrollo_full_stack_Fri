@@ -1,0 +1,237 @@
+/* ===== Estilos generales ===== */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 60px 0 20px;
+    color: #2e7d32;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2.tx {
+    font-size: 24px;
+    color: #143f16;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    background-color: #1b5e20;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    color: white;
+    z-index: 1000;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.title {
+    margin-left: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav {
+    margin-left: auto;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    text-decoration: underline;
+}
+
+
+.US {
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.US-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 30px;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* ===== camapañas paises ===== */
+.cards-container {
+    display: flex;          
+    justify-content: center;
+    gap: 30px;               
+    margin-top: 40px;
+    flex-wrap: wrap;            
+}
+
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background-color: #e8f5e9;  
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* --- Texto paises --- */
+.card p {
+    color: #2e7d32;
+    font-size: 15px;
+}
+
+
+
+
+
+
+section {
+    padding: 40px 80px;
+}
+
+#slgn {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* --- imagen chica arriba --- */
+.contents img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contents {
+    display: flex;          
+    align-items: center;    
+    gap: 40px;              
+    margin-top: 30px;
+}
+/* --- las otras 2 imagenes --- */
+.content img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content div {
+    flex: 1;
+}
+
+/* ===== Formulario de Donaciones ===== */
+.donation-form {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #f1f8e9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.donation-form label {
+    display: block;
+    margin-top: 15px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+
+.donation-form input,
+.donation-form select,
+.donation-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #c8e6c9;
+    font-size: 14px;
+}
+
+
+.donation-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+
+.donation-form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.donation-form button:hover {
+    background-color: #1b5e20;
+}
+
+
+
+/* ===== Footer ===== */
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 90%;
+    }
+}
