@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/736x/99/93/3c/99933c1df6e93927b57d7545459768b4.jpg");
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recuadro {
+  background-color: #e1ffc9;
+  background-size: cover;
+  width: 100%;
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 12px rgb(255, 255, 255);
+
+}
+
+.container {
+  background: rgb(255, 255, 243);
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border-color: #ffe1f4;
+  border-width: 8px;
+  border-style: solid;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: cursive;
+  color: #e77ee7;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  color: #5e0652;
+  border: none;
+  background-color: #ffe3f8;
+  font-family: cursive;
+  margin-left: 6px;
+}
+
+
+
+#lista-tareas li {
+  display: flex;
+  border: 5px solid #ffe1f4;
+  background-color: rgb(255, 255, 243);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #e9ecef;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  padding-right: 120px;
+}
+
+li button:first-of-type {
+  margin-left: auto;
+}
+
+li.completa {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .input-group {
+    flex-direction: column;
+  }
+}
+
+
+#lista-tareas li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#lista-tareas li div {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.icono {
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+}
